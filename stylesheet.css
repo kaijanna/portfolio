@@ -132,3 +132,48 @@ footer{
 .img{
   width: 400px;
 }
+
+@media (max-width: 600px) {
+  ul{
+    justify-content: center;
+    padding-left: 0;
+  }
+  .hero-section{
+    flex-direction: column;
+  }
+  .hero-img{
+    height: 200px;
+  }
+  h1{
+    font-size: 50px;
+  }
+  .year{
+    font-size: 20px;
+  }
+  .subheadline{
+    font-size: 30px;
+  }
+  .assignment-container{
+    flex-direction: column;
+    width: 90%;
+    gap: 30px;
+  }
+  .img{
+    width: 200px;
+  }
+  .assignment-card{
+    width: 100%;
+  }
+  .about{
+    max-width: 90%;
+  }
+  .profil-img{
+    width: 200px;
+  }
+  footer{
+    text-align: center;
+  }
+  .red-line{
+    margin: 10% 0 10% 0;
+  }
+}
