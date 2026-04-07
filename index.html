@@ -1,106 +1,279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="stylesheet.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="portfolio front-end, Anna Kaijankoski" content="This is a portfolio assignment for the first year in front end at Noroff" >
-  <title>portfolio for Anna Kaijankoski</title>
-</head>
-<body>
-
-  <nav>
-    <ul class="navbar">
-      <li><a class="nav-a" href="#projects">Projects</a></li>
-      <li><a class="nav-a" href="#about">About</a></li> 
-      <li><a class="nav-a" href="#contact">Contact</a></li>
-  </ul>
-  </nav>
- <main>
-  <section class="hero-section" >
-    <div class="hero-1" >
-     
-     <img src="img/hero-img.png" alt="a face with glasses" class="hero-img" >
-    </div>
-    <div class="hero-2" >
-      <h2>Anna Kaijankoski</h2>
-     <h1>PORT<span class="h1-hero-span" >FOLIO</span></h1>
-     <h2 class="year" >2024 - 2025 </h2>
-     <h3>front-end developer</h3>
-    
-  </div>
-  </section>
-
-  <div class="red-line"></div>
-
- <div id="projects" ><h1 class="subheadline">Projects</h1></div>
-
-  <section class="assignment-container" >
-    <div class="assignment-card">
-      
-      <img src="img/mockup-squareeyes.png" alt="a face with glasses" class="img">
-      <h2>Square eyes</h2>
-      <p>A Movie e-commerce site, build with HTML, css and javascript.
-        Working with rest API </p>
-        <div class="button-container" >
-          <button><a href="https://github.com/kaijanna/javascript-assignment" target="_blank">Github</a></button>
-          <button><a href="https://kaijanna.github.io/javascript-assignment/index.html" target="_blank">Live-site</a></button>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Anna Kaijankoski, a frontend developer with a background in graphic design and a focus on user-friendly web experiences."
+    />
+    <title>portfolio for Anna Kaijankoski</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="navbar">
+        <li><a class="nav-a" href="#projects">Projects</a></li>
+        <li><a class="nav-a" href="#about">About</a></li>
+        <li><a class="nav-a" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="hero-section">
+        <div class="hero-1">
+          <img
+            src="img/hero-img.png"
+            alt="a face with glasses"
+            class="hero-img"
+          />
         </div>
-    </div>
-    <div class="assignment-card">
-      
-      <img src="img/mockup-museum.png" alt="a face with glasses" class="img">
-      <h2>Community Science Museum</h2>
-      <p>A info page for a science Museum, with kids and families as
-        the target audience. Made with only HTML and css.
-      </p>
-      <div class="button-container" >
-        <button><a href="https://github.com/kaijanna/SemesterProject1-website-Anna" target="_blank"> Github </a></button>
-        <button><a href="https://kaijanna.github.io/SemesterProject1-website-Anna/index.html" target="_blank">Live-site</a></button>
+        <div class="hero-2">
+          <h2>Anna Kaijankoski</h2>
+          <h1>PORT<span class="h1-hero-span">FOLIO</span></h1>
+          <h2 class="year">frontend developer</h2>
+          <p class="hero-status">Open to frontend / fullstack opportunities</p>
+        </div>
+      </section>
+
+      <div class="red-line"></div>
+
+      <div id="projects">
+        <h1 class="subheadline">Projects</h1>
       </div>
-    </div>
-    <div class="assignment-card">
-      
-      <img src="img/mockup-ccc.png" alt="a face with glasses" class="img">
-      <h2>Cover to Cover Coven</h2>
-      <p>A blog-site for a online book club.
-        Made with HTML, css and javascript. 
-      Working with API.</p>
-      <div class="button-container" >
-        <button><a href="https://github.com/kaijanna/FED1-PE1-kaijanna" target="_blank">Github</a></button>
-        <button><a href="https://glistening-kelpie-25abc9.netlify.app/index.html" target="_blank">Live-site</a></button>
+
+      <h2 class="project-group">Featured Projects</h2>
+
+      <section class="projects-grid">
+        <div class="project-card">
+          <img src="img/myshop.png" alt="MyShop online store" />
+
+          <h3>MyShop – Online Store</h3>
+
+          <p class="tech">Next.js • TypeScript • API • Cart</p>
+
+          <p>
+            A modern online shop built with Next.js and TypeScript. Users can
+            browse products, search and sort items, view product details, and
+            add items to a shopping cart before checkout.
+          </p>
+
+          <div class="project-buttons">
+            <a href="https://jsframework-anna.netlify.app/" target="_blank"
+              >Live</a
+            >
+            <a
+              href="https://github.com/NoroffFEU/jsfw-2025-v1-anna-k-js-frameworks-ca"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="img/dungeonnews.png" alt="DungeonNews screenshot" />
+
+          <h3>DungeonNews</h3>
+
+          <p class="tech">HTML • CSS • JavaScript • Supabase</p>
+
+          <p>
+            A news platform where users can browse articles publicly and
+            authenticated users can create and manage their own content.
+          </p>
+
+          <div class="project-buttons">
+            <a
+              href="https://endearing-squirrel-a302a6.netlify.app/"
+              target="_blank"
+              >Live</a
+            >
+            <a
+              href="https://github.com/kaijanna/development-platforms-ca"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="img/rubberduck.png" alt="Social media app screenshot" />
+
+          <h3>Social Media Front-End</h3>
+
+          <p class="tech">HTML • CSS • JavaScript • Fetch API</p>
+
+          <p>
+            Users can register, log in, create posts, edit and delete content,
+            and follow other users.
+          </p>
+
+          <div class="project-buttons">
+            <a
+              href="https://rubberduckjavascript2.netlify.app/index.html"
+              target="_blank"
+              >Live</a
+            >
+            <a
+              href="https://github.com/kaijanna/Javascript2-CA-Anna"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="img/wantthetea.png" alt="Want some tea screenshot" />
+
+          <h3>Want The Tea</h3>
+
+          <p class="tech">HTML • Tailwind CSS</p>
+
+          <p>
+            A responsive social media front end focused on consistent styling,
+            accessibility and a cozy visual theme.
+          </p>
+
+          <div class="project-buttons">
+            <a href="https://github.com/kaijanna/social-app" target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <h2 class="project-group">Earlier Projects</h2>
+
+      <section class="projects-grid">
+        <div class="project-card">
+          <img src="img/mockup-squareeyes.png" alt="Square eyes screenshot" />
+          <h3>Square Eyes</h3>
+          <p>
+            Movie e-commerce site built with HTML, CSS and JavaScript using REST
+            API.
+          </p>
+
+          <div class="project-buttons">
+            <a
+              href="https://github.com/kaijanna/javascript-assignment"
+              target="_blank"
+              >GitHub</a
+            >
+            <a
+              href="https://kaijanna.github.io/javascript-assignment/index.html"
+              target="_blank"
+              >Live</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="img/mockup-museum.png" alt="Museum screenshot" />
+          <h3>Community Science Museum</h3>
+          <p>
+            Information website built with HTML and CSS for families and
+            children.
+          </p>
+
+          <div class="project-buttons">
+            <a
+              href="https://github.com/kaijanna/SemesterProject1-website-Anna"
+              target="_blank"
+              >GitHub</a
+            >
+            <a
+              href="https://kaijanna.github.io/SemesterProject1-website-Anna/index.html"
+              target="_blank"
+              >Live</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="img/mockup-ccc.png" alt="Cover to cover screenshot" />
+          <h3>Cover to Cover Coven</h3>
+          <p>Blog site built with HTML, CSS and JavaScript using API.</p>
+
+          <div class="project-buttons">
+            <a
+              href="https://github.com/kaijanna/FED1-PE1-kaijanna"
+              target="_blank"
+              >GitHub</a
+            >
+            <a
+              href="https://glistening-kelpie-25abc9.netlify.app/index.html"
+              target="_blank"
+              >Live</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <h2 class="project-group">Currently Building</h2>
+
+      <section class="single-project">
+        <div class="project-card in-progress">
+          <img src="img/kafe.png" alt="Cafe project" class="small-preview" />
+
+          <div class="badge">In progress</div>
+          <p>
+            Currently building a fullstack café website with admin panel and
+            Supabase backend.
+          </p>
+
+          <h3>Café Website</h3>
+
+          <p class="tech">Next.js • TypeScript • Tailwind • Supabase</p>
+
+          <p>
+            A café website with editable content, opening hours, event
+            management and admin functionality.
+          </p>
+
+          <div class="project-buttons">
+            <a href="https://kafe-kraft.netlify.app/" target="_blank">Live</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="red-line"></div>
+      <div id="about"><h1 class="subheadline">About me</h1></div>
+      <section class="about">
+        <img
+          src="img/profil-img.jpg"
+          alt="Portrait of Anna Kaijankoski"
+          class="profil-img"
+        />
+        <p>
+          My name is Anna Kaijankoski, and I have a background in graphic design
+          from Noroff. That was also where I was first introduced to coding, and
+          where I built my first web page using HTML and CSS.
+        </p>
+        <p>
+          Since then, I have continued into front-end development, where I have
+          built projects using HTML, CSS, JavaScript, React, Next.js,
+          TypeScript, and APIs.
+        </p>
+        <p>
+          With a strong interest in both design and development, I enjoy turning
+          ideas into functional and user-friendly digital experiences.
+        </p>
+      </section>
+
+      <div class="red-line"></div>
+      <div id="contact"><h1 class="subheadline">Contact</h1></div>
+      <div class="about">
+        <p class="p-text">
+          If you would like to get in touch, feel free to email me at
+          <a href="mailto:kaijanna@hotmail.com">kaijanna@hotmail.com</a>
+        </p>
+        <p class="p-text">
+          You can also view more of my work on
+          <a href="https://github.com/kaijanna" target="_blank">GitHub</a>.
+        </p>
+        <h2>Thank you for visiting my portfolio!</h2>
       </div>
-    </div>
-  </section>
+    </main>
 
-  <div class="red-line"></div>
-  <div id="about" > <h1 class="subheadline">About me</h1></div>
-  <section class="about" >
-    <img src="img/profil-img.jpg" alt="picture of Anna" class="profil-img">
-    <p>My name is Anna Kaijankoski, and I have 2 years of Graphic design at Noroff.
-    It that cours we were introduced to coding, where I build my first web-page using
-    HTML and CSS.</p>
-    <p> This was the starting point for continuing my studies, and now I am 
-    almost at the end of the first year with Front-End development.</p>
-    
-   <p> Being a graphic designer at heart, I love that we learn how to implement design ide to actual code,
-    and see how a creative design can be made to an actual website in the end.</p>
-  </section>
-
-  <div class="red-line"></div>
-  <div id="contact" ><h1 class="subheadline">Contact</h1></div>
-  <div class="about">
-    <p class="p-text">
-      If you want to reach me, please e-mail at: kaijanna@hotmail.com 
-    </p>
-    <h2>
-      Thank you for watching my Portfolio!  
-    </h2>
-  </div>
-
-</main>
-
-  <footer>Portfolio 2024 - 2025, Anna Kaijankoski</footer>
-  
-</body>
+    <footer>Anna Kaijankoski © 2026</footer>
+  </body>
 </html>
