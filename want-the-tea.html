@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="project-pages.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crow Auction House | Anna Kaijankoski</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul class="navbar">
+        <li><a class="nav-a" href="index.html#projects">Projects</a></li>
+        <li><a class="nav-a" href="index.html#about">About</a></li>
+        <li><a class="nav-a" href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="project-article">
+        <a href="index.html#projects" class="back-link">← Back to projects</a>
+
+        <h1 class="article-title">Want the tea</h1>
+
+        <figure class="article-image-wrapper">
+          <img
+            src="img/new-wantthetea.png"
+            alt="Want the tea homepage screenshot"
+            class="article-image"
+          />
+          <figcaption>
+            A calm, tea-inspired social media prototype built with Tailwind CSS
+            for the CSS Frameworks course assignment.
+          </figcaption>
+        </figure>
+
+        <div class="article-buttons">
+          <a href="https://semester-project-2-anna.netlify.app/" target="_blank"
+            >Live site</a
+          >
+          <a
+            href="https://github.com/kaijanna/semester-project-2-auction"
+            target="_blank"
+            >GitHub</a
+          >
+          <button class="copy-link-button" type="button">Copy page link</button>
+        </div>
+
+        <section class="article-content">
+          <h2>Project description</h2>
+          <p>
+            Crow Auction House is an auction website where users can browse
+            listings, create their own auctions, place bids, and manage their
+            profile.
+          </p>
+
+          <p>
+            The project was built with HTML, Tailwind CSS and Vanilla
+            JavaScript, using the Noroff API for authentication, listings,
+            bidding and profile data.
+          </p>
+
+          <h2>What I learned</h2>
+          <p>
+            This project helped me improve my understanding of working with API
+            data, authentication, dynamic pages and user interactions in
+            JavaScript.
+          </p>
+        </section>
+        <section class="improvements-section">
+          <h2>Improvements Made</h2>
+
+          <div class="improvements-images">
+            <figure class="improvement-image">
+              <img
+                src="img/wantthetea.png"
+                alt="Want Some Tea before improvements"
+              />
+              <figcaption>
+                Before: Original version with a simpler visual layout.
+              </figcaption>
+            </figure>
+
+            <figure class="improvement-image">
+              <img
+                src="img/after-wantthetea.png"
+                alt="Want Some Tea after improvements"
+              />
+              <figcaption>
+                After: Updated version with improved layout, cards and visual
+                style.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="improvements-text">
+            <p>
+              I revisited this project and improved the visual design, spacing
+              and user experience. The updates included a softer color palette,
+              more consistent card styling, improved navigation, enhanced post
+              previews and a collapsible create-post section.
+            </p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>Anna Kaijankoski © 2026</footer>
+
+    <script>
+      const copyButton = document.querySelector(".copy-link-button");
+
+      copyButton.addEventListener("click", async () => {
+        await navigator.clipboard.writeText(window.location.href);
+        copyButton.textContent = "Link copied!";
+      });
+    </script>
+  </body>
+</html>

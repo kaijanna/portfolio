@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="project-pages.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crow Auction House | Anna Kaijankoski</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul class="navbar">
+        <li><a class="nav-a" href="index.html#projects">Projects</a></li>
+        <li><a class="nav-a" href="index.html#about">About</a></li>
+        <li><a class="nav-a" href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="project-article">
+        <a href="index.html#projects" class="back-link">← Back to projects</a>
+
+        <h1 class="article-title">Crow Auction House</h1>
+
+        <figure class="article-image-wrapper">
+          <img
+            src="img/crow-auction-house.png"
+            alt="Crow Auction House homepage screenshot"
+            class="article-image"
+          />
+          <figcaption>
+            Homepage for Crow Auction House, an auction platform built for
+            Semester Project 2.
+          </figcaption>
+        </figure>
+
+        <div class="article-buttons">
+          <a href="https://semester-project-2-anna.netlify.app/" target="_blank"
+            >Live site</a
+          >
+          <a
+            href="https://github.com/kaijanna/semester-project-2-auction"
+            target="_blank"
+            >GitHub</a
+          >
+          <button class="copy-link-button" type="button">Copy page link</button>
+        </div>
+
+        <section class="article-content">
+          <h2>Project description</h2>
+          <p>
+            Crow Auction House is an auction website where users can browse
+            listings, create their own auctions, place bids, and manage their
+            profile.
+          </p>
+
+          <p>
+            The project was built with HTML, Tailwind CSS and Vanilla
+            JavaScript, using the Noroff API for authentication, listings,
+            bidding and profile data.
+          </p>
+
+          <h2>What I learned</h2>
+          <p>
+            This project helped me improve my understanding of working with API
+            data, authentication, dynamic pages and user interactions in
+            JavaScript.
+          </p>
+        </section>
+        <section class="improvements-section">
+          <h2>Improvements Made</h2>
+
+          <div class="improvements-images">
+            <figure class="improvement-image">
+              <img src="img/before-crow.png" alt=" before improvements" />
+              <figcaption>
+                Before: Ended auctions could appear in the "Ending Soon" filter,
+                which created a confusing user experience.
+              </figcaption>
+            </figure>
+
+            <figure class="improvement-image">
+              <img src="img/after-crow.png" alt=" after improvements" />
+              <figcaption>
+                After: Updated the filtering logic so only active auctions are
+                shown in "Ending Soon", improving the accuracy and usability of
+                the listing overview.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="improvements-text">
+            <p>
+              While reviewing the project, I noticed that ended auctions could
+              still appear in the "Ending Soon" filter. This made the results
+              less accurate and could be confusing for users. I updated the
+              filtering logic so only active auctions are shown, improving the
+              overall user experience.
+            </p>
+            <p></p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>Anna Kaijankoski © 2026</footer>
+
+    <script>
+      const copyButton = document.querySelector(".copy-link-button");
+
+      copyButton.addEventListener("click", async () => {
+        await navigator.clipboard.writeText(window.location.href);
+        copyButton.textContent = "Link copied!";
+      });
+    </script>
+  </body>
+</html>
