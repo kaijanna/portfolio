@@ -2,6 +2,9 @@
 
 ![Portfolio screenshot](img/Screenshot-portfolio-26.png)
 
+## Live site
+[Live Site](https://kaijanna.github.io/portfolio/index.html)
+
 A multi-page portfolio website showcasing selected projects from my last year of Front-end Development at Noroff.
 
 ## Description
